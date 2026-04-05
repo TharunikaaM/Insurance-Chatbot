@@ -1,3 +1,4 @@
+# Python
 __pycache__/
 *.pyc
 *.pyo
@@ -6,16 +7,18 @@ __pycache__/
 env/
 venv/
 .venv/
-.env
+
+# Environment secrets - NEVER commit this
+backend/.env
 
 # Node.js
 node_modules/
 npm-debug.log
 yarn-error.log
 
-# Mac/Windows
+# OS
 .DS_Store
 Thumbs.db
 
-# Project Specific
-savedEmbeddings/
+# Project Specific - Large generated files, don't commit
+backend/data/savedEmbeddings/
